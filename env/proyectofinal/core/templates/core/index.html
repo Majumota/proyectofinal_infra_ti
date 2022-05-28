@@ -1,0 +1,43 @@
+{% extends 'core/base.html' %}{% block title %}Home{% endblock %} {% block content %} {% load static %}
+
+<!--===============================================================================================-->
+    
+    <!-- welcome_docmed_area_start -->
+    <div class="welcome_docmed_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="welcome_thumb">
+                        <div class="thumb_1">
+                            <img src="{% static 'core/img/about/fotos1.png' %}" alt="">
+                            <br><br><br><br><br> 
+                        </div>
+                        <div class="thumb_2">
+                            <img src="{% static 'core/img/about/fotos.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="welcome_docmed_info">
+                        <h2>Bienvenido a Centro Médico</h2>
+                        <h3>Proyecto Final Infraestructura de TI</h3>
+                        <p>Realizado por María Juliana Morales Tamayo y Pablo Andrés Toledo Lugo, 
+                            estudiantes de octavo semestre de ingenieria informática de La Universidad de La Sabana. 
+                        </p>
+                        <ul>
+                            <li> <i class="flaticon-right"></i> El proyecto contiene dos API:</li>
+                            <li> <i class="flaticon-right"></i> API Doctores conectada a mySQL. </li>
+                            <li> <i class="flaticon-right"></i> API Pacientes conectada a Postgres </li>
+                        </ul>
+                        <a href="http://127.0.0.1:8000/api/v1.0/doctores/" class="boxed-btn3-white-2">API Doctores</a> <!--HACER LINK A QUIENES SOMOS-->
+                        <a href="http://127.0.0.1:8000/api/v2.0/pacientes/" class="boxed-btn3-white-2">API Pacientes</a> <!--HACER LINK A QUIENES SOMOS-->
+                        <a href="{% url 'juli' %}" class="boxed-btn3-white-2">Juliana Morales T.</a> <!--HACER LINK A QUIENES SOMOS-->
+                        <a href="{% url 'pablo' %}" class="boxed-btn3-white-2">Pablo Toledo L.</a> <!--HACER LINK A QUIENES SOMOS-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- welcome_docmed_area_end -->
+    {% endblock %}

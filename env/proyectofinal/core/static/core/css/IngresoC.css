@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+    background-image: url("../img/registro.png");
+}
+.formLogin{
+    width: 400px;
+    height: 340px;
+    background: #DFE6ED;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000000;
+    padding: 20px 30px;
+    border-top: 4px solid #9963e7;
+    color: white;
+    font-family: 'bahnschrift', sans-serif;
+}
+
+.formLogin h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    background: #DFE6ED;
+    color: #9963e7;
+    font-weight: bold;
+}
+.controls{
+    width: 100%;
+    border: 1px solid #9963e7;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #DFE6ED;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.butLogin{
+    width: 100%;
+    height: 40px;
+    background: #9963e7;
+    border: none;
+    padding: 12px;
+    border-radius: none;
+    color: white;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.formLogin p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    font-size: 16px;
+    color: #000;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formLogin a{
+    color: black;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.formLogin a:hover{
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
