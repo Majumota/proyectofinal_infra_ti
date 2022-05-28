@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}{% block title %}Home{% endblock %} {% block content %} {% load static %}
+
+<!--===============================================================================================-->
+
+    <!-- bradcam_area_start  -->
+    <div class="bradcam_area breadcam_bg bradcam_overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
+                        <h3>María Juliana Morales Tamayo</h3>
+                        <p><a href="index.html">Home /</a> María Juliana Morales Tamayo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bradcam_area_end  -->
+
+   <!-- offers_area_start -->
+   <div class="our_department_area">
+    <div class="container">
+        <div class="row">
+            <center>
+                <iframe src="{% static 'core/pdf/Ensayo MAría Juliana Morales Tamayo.pdf' %}" frameborder="0"></iframe>
+            </center>
+        </div>
+    </div>
+</div>
+<!-- offers_area_end -->
+
+{% endblock %}
